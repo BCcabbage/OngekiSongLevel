@@ -27,7 +27,6 @@ namespace SongLevel
         void OnGUI()
         {
             GUIStyle style = new GUIStyle();
-            // 修改：字体调小，颜色改为白色
             style.fontSize = 20;
             style.normal.textColor = Color.white;
             style.alignment = TextAnchor.MiddleCenter;
